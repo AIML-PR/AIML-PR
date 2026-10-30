@@ -1,6 +1,6 @@
 # AIML-PRAC
 ```
-exp1
+Experiment 1: To understand the basic syntax of Python and use of key libraries such as NumPy, Pandas, and Matplotlib.
 import numpy as np
 # Create a 1D and a 2D array
 vector = np.array([1, 2, 3, 4])
@@ -46,7 +46,7 @@ plt.show()
 ```
 
 ```
-exp2
+Experiment 2: To implement a linear regression model and evaluate its performance.
 # Import Pandas for data processing
 import pandas as pd
 # Read the CSV file
@@ -86,7 +86,7 @@ plt.ylim(ymin=0)
 plt.show()
 ```
 ```
-exp3
+Experiment 3: To implement a logistic regression model and evaluate its performance.
 from sklearn import datasets
 #Load Iris Dataset from Scikit learn Library.
 iris=datasets.load_iris()
@@ -107,7 +107,7 @@ print("\n Classification Reort \n")
 print(metrics.classification_report(y_test,y_pred))
 ```
 ```
-exp4
+Experiment 4: To implement a Decision Tree classification model and evaluate its performance.
 # Import libraries
 import pandas as pd
 # Read dataset
@@ -139,7 +139,7 @@ print('Confusion matrix', cm)
 ```
 
 ```
-exp5
+Experiment 5: To implement K-Nearest Neighbour (KNN) classification model and evaluate its performance.
 # importing libraries
 import numpy as nm
 import matplotlib.pyplot as mtp
@@ -171,7 +171,7 @@ print(classification_report(y_test, y_pred))
 ```
 
 ```
-exp6
+Experiment 6: To implement Decision Tree and Random Forest classifications models and evaluate their performance.
 # Import libraries
 import pandas as pd
 #Read dataset
@@ -203,7 +203,7 @@ print(classification_report(Y_test, Y_predict))
 ```
 
 ```
-exp7
+Experiment 7: To implement Support Vector Machine (SVM) classification model and evaluate its performance.
 from sklearn import datasets
 iris=datasets.load_iris()
 X = iris.data
@@ -223,7 +223,7 @@ print(classification_report(y_test,y_pred))
 ```
 
 ```
-exp8
+Experiment 8: To implement K-Means Clustering classification model and evaluate its performance.   
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
@@ -295,7 +295,7 @@ plt.show()
 ```
 
 ```
-exp9
+Experiment 9: To implement the Principal Component Analysis (PCA) model for dimensionality reduction.   
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -331,7 +331,7 @@ print(principal.explained_variance_ratio_)
 ```
 
 ```
-exp10
+Experiment 10: To implement a single-layer perceptron and MLP using Python/Tensor Flow/Keras.
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
